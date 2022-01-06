@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="https://kit.fontawesome.com/ca89b1cdbe.js"></script>
+
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+    <header>
+        <h1>To DO List</h1>
+    </header>
+
+    <main>
+        <div class="testbox">
+            <form>
+                <h1>Student Add Form</h1>
+                <h5>Personal Information</h5>
+
+                <div class="item">
+                    <p>Enter Student Name</p>
+                    <div class="name-item">
+                        <input class="first" id="first" type="text" placeholder="Enter First Name" onchange="handleFirstName(this.value)">
+                        <input class="last" id="last" type="text" placeholder="Enter Last Name" onchange="handleLastName(this.value)">
+                    </div>
+
+                    <div class="class-roll-item">
+                        <div class="class-item">
+                            <p>Enter student Class</p>
+                            <input class="class" id="class" type="text" placeholder="Enter Class" onchange="handleClass(this.value)">
+                        </div>
+
+                        <div class="roll-item">
+                            <p>Enter student Roll No</p>
+                            <input class="roll" id="roll" type="text" placeholder="Enter Roll No" onchange="handleRollNo(this.value)">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+
+            <button class="btn" id="addBtn">ADD</button>
+        </div>
+
+        <h1 class="details">View Student Details</h1>
+        <hr />
+        <div id="notes-list">
+            <!-- <div class="list-item">
+                <p>
+                    <span>1#</span> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dignissimos voluptatibus fugiat quis blanditiis libero ad eaque consequatur nisi sed quos reiciendis ratione expedita! Ipsum officiis praesentium repudiandae
+                    sed quas!
+                </p>
+                <div class="list-btn-group">
+                    <a href="" target="_blank">See More</a>
+                    <button class="deleteBtn" id="deleteBtn">DELETE</button>
+                </div>
+            </div> -->
+
+
+        </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
